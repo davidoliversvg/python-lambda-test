@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: sample lambda app with DynamoDB Table and Cloudwatch logs
-  description: creates
+  name: Lambda DynamoDB and Cloudwatch
+  description: creates DynamoDB Table and Cloudwatch logs
   labels:
     example.com/custom: custom_label_value
   annotations:
