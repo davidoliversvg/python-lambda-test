@@ -40,7 +40,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: ./template
+        url: ./content
         values:
           name: ${{ parameters.name }}
 
@@ -64,4 +64,4 @@ spec:
       action: catalog:register
       input:
         repoContentsUrl: ${{ steps['publish'].output.repoContentsUrl }}
-        catalogInfoPath: 'https://github.com/davidoliversvg/python-lambda-test/blob/main/templates/catalog-info.yaml'
+        catalogInfoPath: '/catalog-info.yaml'
