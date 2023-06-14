@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1beta2
-kind: System
+kind: Component
 metadata:
   name: davidTemplateTest
   description: testing template
