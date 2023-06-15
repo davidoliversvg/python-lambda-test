@@ -8,6 +8,7 @@ metadata:
   annotations:
     example.com/service-discovery: sample_lambda
     # circleci.com/project-slug: github/example-org/artist-website
+    backstage.io/techdocs-ref: dir:.
   tags:
     - python
   links:
